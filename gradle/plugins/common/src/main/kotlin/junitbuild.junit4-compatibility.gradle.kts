@@ -9,7 +9,7 @@ val junit_4_12 by configurations.creatingResolvable {
 dependencies {
 	junit_4_12("junit:junit") {
 		version {
-			strictly("4.12")
+			strictly("4.13.1")
 		}
 	}
 	pluginManager.withPlugin("junitbuild.osgi-conventions") {
